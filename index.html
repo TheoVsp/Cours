@@ -1,36 +1,30 @@
+<!DOCTYPE html>
 <html>
-	<head>
+	<head><meta charset="utf-8" />
 		<title>Page Title</title>
 	</head>
 	<body>
 
-		<h1 title="ceci est une balise de titre de niveau 1" style="color:white;background : blue;"onclick="this.style.color='orange';"ondblclick="this.style.color='white';">Définitions</h1>
-		<h2 onmouseover="this.style.fontSize='300%';"onmouseout="this.style.fontSize ='125%';">Définitions</h2>
-		<h3>Définitions</h3>
-		<h4>Définitions</h4>
-		<h5>Définitions</h5>
-		<h6>Définitions</h6>
-		<p>La page affichée est codée par tout le code qui se situe entre &lt;body&gt; et &lt;/body&gt; </p>
-		<h2>Les 2 types de balises</h2>
-        <p>Il existe deux types de balises : </p>
-        <ol>
-        	<li>les balises usuelles encadrent du code par exelple : &lt;body&gt; et &lt;/body&gt; </li>
-        	<li>les balises dites orphelines n'encadrent aucun code ; elles se ferment elles-mêmes. Par 						exemple &lt;br/&gt; abréviation de <i>break row;</i>  &lt;hr/&gt; abréviation de <i>horizontal 					row;</i></li>
-        </ol>
-        <br/><br/><br/><br/><br/><br/>
-        <hr/>
-        
-        
-        
-        <h2>TP</h2>
-        <h3>Balises à tester</h3>
-        <ul>
-        	<li><em>em</em></li> 
-            <li><b>b</b></li>
-            <li><strong>strong</strong></li>
-            <li><u>u</u></li>
-            <li><mark>mark</mark></li>
-            <li><em>em</em></li>
-        </ul>
+		<h1>Définitions</h1>
+		<p><u title="souligné : balise <i>">Une page web</u> est une page écrite en <abbr title="HyperText Markup Langage">HTML</abbr> et <abbr title="Cascade Style Sheet">CSS</abbr> (et <abbr title="Javascript : langage de programmation des pages web">JS</abbr>) ; elle est interprétée par le navigateur (<i title="italique : balise <i>">chrome</i>, <mark title="surligné en jaune : balise <mark>">firefox</mark>, <del title="supprimé = rayé : balise <del>">internet-explorer</del>, <ins title="insertion : balise <ins>">safari</ins> ...)</p>
+
+    <h2>les différents types de balises</h2>
+    <p>Il y a deux types de balises :</p>
+    <ol>
+    	<li>les balises usuelles qui encadrent du code html. Le code encadré fini par &lt;/balise &gt; ;</li>&#5689; &amp;
+    	<li>les balises orphelines qui n'encadrent aucun code et qui se ferment elles-mêmes ; par exemple :
+        <dl>
+        	<dt>&lt;br/ &gt;</dt>
+            <dt>&lt;hr/ &gt;</dt>
+            <dt>&lt;img/ &gt;</dt>
+            <dt>&lt;input/ &gt;</dt>
+           
+        </dl>
+        </li>
+    </ol>
+    
+    <h2>Les balises peuvent avoir des attributs</h2>
+    <p><dfn>Un attribut désigne une caractéristique d'une balise. Cette balise est interprété comme un objet par le navigateur, elle prend une valeur par défaut à l'initialisation du site mais elle peut être modifiée. </dfn><br/>Exemple &lt;p style="color:red"&gt;</p>
+    <p style="color:red" onclick="this.style.fontSize = '300%';">essai</p>
 	</body>
 </html>
