@@ -1,0 +1,47 @@
+/*
+    Auteur : MOI 
+    Date :
+    But :
+ 
+ 
+ 
+ 
+ 
+*/
+ 
+body{
+        background-image: url("./images/led.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        color : red;
+        padding : 20px; /*marge interne*/
+        font-size: 30px;
+        text-align : center;
+}
+ 
+h2 {
+            border : outset brown 5px;
+            width : 12%;
+            padding : 20px; /*marge interne*/
+            margin : auto;
+}
+ 
+#para2 {color : red; }
+ 
+.impair {color : purple; }
+ 
+.souligner { text-decoration : underline; }
+ 
+.code {color : rgb(240,240,240);
+       background: rgb(20,20,20);
+       border: double 10px lightgray;       
+       padding: 15px;
+       border-radius: 10px;
+}
+ 
+.bo, .bf {color : lightblue;}
+.bo::before {content : "<";}
+.bf::before {content : "</";}
+.bo::after {content : ">";}
+.bf::after {content : ">";}
+
